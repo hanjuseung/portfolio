@@ -1,0 +1,154 @@
+/* === 전체 컨테이너 === */
+.container1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px 40px;
+    /* 상단 Header 고려 */
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+    color: #111827;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* === 비디오 === */
+.container1 video {
+    display: block;
+    width: 850px;
+    max-width: 100%;
+    margin: 20px auto 40px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === 공통 섹션 타이틀 === */
+.container1 h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.container1 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0 20px;
+}
+
+/* === 프로젝트 개요 === */
+.project-overview {
+    margin-bottom: 60px;
+}
+
+.project-overview h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+.project-overview ul {
+    list-style: none;
+    /* 점 제거 */
+    padding: 0;
+    margin: 0;
+}
+
+.project-overview li {
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+/* === 링크 영역 === */
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 24px 0 8px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #1e40af;
+    border-radius: 8px;
+    background: #1e40af;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: transform .15s ease, box-shadow .15s ease, background .15s;
+}
+
+.links a:hover,
+.links a:focus {
+    background: #17318a;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+.links a:focus-visible {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, .4);
+}
+
+/* === 사용 기술 === */
+.project-tech {
+    margin-bottom: 60px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    /* 아이콘 위, 글자 아래 */
+    align-items: center;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    width: 160px;
+    padding: 24px 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tech-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.tech-icon {
+    font-size: 48px;
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+.tech-item span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* === 성과/문제 해결 === */
+.project-result,
+.project-retro {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    text-align: left;
+}
+
+.project-result p,
+.project-retro p {
+    font-size: 15px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.project-retro strong {
+    color: #1e40af;
+}

@@ -1,49 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Route,Routes } from "react-router-dom";
+import MainPage from './main/MainPage';
+import Project1 from './project/Project1';
+import Project2 from './project/Project2';
+import Project3 from './project/Project3';
 
 function App() {
   return (
-    <div className="App">
-      <h1>OOO's Portfolio</h1>
-
-      <div className="port-container">
-        <div className="port-video">
-          <video src={"https://yong-jin.github.io/web-portfolio/videos/pf1.mkv"} autoPlay muted loop></video>
-        </div>
-        <div className="port-info">
-          <h3>주제 : 음식어쩌고</h3>
-          <p>일정 : </p>
-          <p>사용기술 : </p>
-          <p>설명 : </p>
-        </div>
-      </div>
-
-      <div className="port-container">
-        <div className="port-video">
-          <video src={"https://yong-jin.github.io/web-portfolio/videos/pf1.mkv"} autoPlay muted loop></video>
-        </div>
-        <div className="port-info">
-          <h3>주제 : 음식어쩌고</h3>
-          <p>일정 : </p>
-          <p>사용기술 : </p>
-          <p>설명 : </p>
-          <p>github Link : <a>https://github....</a></p>
-        </div>
-      </div>
-
-      <div className="port-container">
-        <div className="port-video">
-          <video src={"https://yong-jin.github.io/web-portfolio/videos/pf1.mkv"} autoPlay muted loop></video>
-        </div>
-        <div className="port-info">
-          <h3>주제 : 음식어쩌고</h3>
-          <p>일정 : </p>
-          <p>사용기술 : </p>
-          <p>설명 : </p>
-        </div>
-      </div>
-
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/portfolio" element={<MainPage/>} />
+        <Route path="/project1" element={<Project1/>} />
+        <Route path="/project2" element={<Project2/>} />
+        <Route path="/project3" element={<Project3/>} />
+        
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 

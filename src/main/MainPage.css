@@ -1,0 +1,40 @@
+/* ==============================
+   메인 페이지 전체 컨테이너
+============================== */
+.main-container {
+    max-width: 1200px;
+    /* 중앙 레이아웃 최대 폭 */
+    margin: 0 auto;
+    padding: 80px 20px 40px;
+    /* 상단 Header 높이를 고려 */
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #111827;
+    line-height: 1.6;
+}
+
+/* 상단 타이틀 */
+.main-container h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+/* 설명 문구 */
+.page-explanation {
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 40px;
+}
+
+/* ==============================
+   프로젝트 카드 영역
+============================== */
+.cards-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    /* 카드 간격 */
+    flex-wrap: wrap;
+    padding: 20px;
+}
