@@ -1,8 +1,5 @@
 import "./ProjectCard.css";
-import { FaReact } from "react-icons/fa";
-import { GiMeal } from "react-icons/gi";
-import { TbLeaf } from "react-icons/tb";
-import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ title, subtitle, imgSrc, desc, github, icons }) {
 
@@ -24,9 +21,9 @@ function ProjectCard({ title, subtitle, imgSrc, desc, github, icons }) {
 
                 <p className="card-desc">{desc}</p>
 
-                <a className="detail-btn" href={github} target="_self" rel="noopener noreferrer">
+                <Link className="detail-btn" to={github}>
                     자세히 보기
-                </a>
+                </Link>
             </div>
         </div>
     );
