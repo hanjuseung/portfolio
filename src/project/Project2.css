@@ -2,3 +2,31 @@
     padding-top: 60px;
     text-align: center;
 }
+
+.project2-p {
+    text-align: center;
+    /* 글자 중앙정렬 */
+    margin: 0 auto;
+    /* 필요 시 블록 전체를 가운데 배치 */
+    max-width: 800px;
+}
+
+.diagram-wrap {
+    display: flex;
+    /* 가로 배치 */
+    justify-content: center;
+    /* 가운데 정렬 */
+    gap: 40px;
+    /* 두 항목 사이 간격 */
+    flex-wrap: wrap;
+    /* 화면이 좁을 때 자동 줄바꿈 */
+}
+
+.diagram-item {
+    text-align: center;
+}
+
+.project-result p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}

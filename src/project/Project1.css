@@ -144,7 +144,7 @@
 
 .project-result p,
 .project-retro p {
-    font-size: 15px;
+    font-size: 16px;
     margin: 10px 0;
     line-height: 1.6;
 }
@@ -166,4 +166,8 @@
     margin: 0 auto;
     /* 필요 시 블록 전체를 가운데 배치 */
     max-width: 800px;
+}
+.project-result p {
+  line-height: 1.6;
+  margin-bottom: 16px;
 }
