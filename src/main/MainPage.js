@@ -12,9 +12,9 @@ function MainPage() {
     return (
         <div className='main-container'>
             <Header />
-            <div className=''>
-                <h1>한주승 풀스택 6개월 교육과정</h1>
-                <p className='page-explanation'>이 글은 제가 6개월간의 풀스택 교육 프로그램 동안 완료한 3개의 팀 프로젝트를 모아서 정리한 것입니다.</p>
+            <div className='main-info'>
+                <h1>자바 활용 데이터 플랫폼 구축 풀스택 개발자 과정</h1>
+                <p className='page-explanation'>기간 : 2025.03.31 ~ 2025.09.19</p>
             </div>
 
             <div className="cards-wrap">

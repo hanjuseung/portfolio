@@ -12,6 +12,9 @@
     color: #111827;
     line-height: 1.6;
 }
+.main-info {
+    margin-top: 50px;
+}
 
 /* 상단 타이틀 */
 .main-container h1 {
@@ -31,10 +34,12 @@
    프로젝트 카드 영역
 ============================== */
 .cards-wrap {
-    display: flex;
+    display: grid;
     justify-content: center;
-    gap: 32px;
+    gap: 24px;
     /* 카드 간격 */
     flex-wrap: wrap;
     padding: 20px;
+    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }

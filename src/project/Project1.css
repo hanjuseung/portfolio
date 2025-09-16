@@ -27,6 +27,11 @@
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 12px;
+    margin-top: 60px;
+
+     /* 형광펜 효과 */
+    display: inline-block;                /* 배경 길이를 글자만큼만 */
+    background: linear-gradient(#fff 70%, #fef08a 70%); /* 노란 형광펜 느낌 */
 }
 
 .container1 h2 {
