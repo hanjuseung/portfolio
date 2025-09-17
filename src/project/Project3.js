@@ -91,7 +91,7 @@ function Project3() {
             <section>
                 <h2>영상 시연</h2>
                 <video
-                    src={process.env.PUBLIC_URL + "/videos/project3.mp4"}    // public 기준 절대경로
+                    src={process.env.PUBLIC_URL + "/videos/project333.mkv"}    // public 기준 절대경로
                     controls                 // 재생 컨트롤 표시
                     autoPlay                 // 자동 재생 (옵션)
                     muted                    // 자동 재생 시 필수

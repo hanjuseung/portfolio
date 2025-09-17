@@ -19,7 +19,7 @@ function MainPage() {
 
             <div className="cards-wrap">
                 <ProjectCard
-                    title="1차 프로젝트"
+                    title="Funders"
                     subtitle="펀딩 사이트"
                     imgSrc={process.env.PUBLIC_URL + "/images/project1.JPG"}
                     desc="React만으로 제작한 펀딩 웹사이트로, 컴포넌트 기반 설계와 SPA 구조를 
@@ -29,7 +29,7 @@ function MainPage() {
                 />
 
                 <ProjectCard
-                    title="2차 프로젝트"
+                    title="Scout"
                     subtitle="여행지 추천 사이트"
                     imgSrc={process.env.PUBLIC_URL + "/images/project2.JPG"}
                     desc="Spring MVC와 Oracle DB를 활용해 공공데이터 기반 여행지 정보를 제공하고 
@@ -39,7 +39,7 @@ function MainPage() {
                 />
 
                 <ProjectCard
-                    title="3차 프로젝트"
+                    title="PowerUp"
                     subtitle="주유소/충전소 정보제공 사이트"
                     imgSrc={process.env.PUBLIC_URL + "/images/project3.JPG"}
                     desc="1차(React)와 2차(Spring+DB)에서 익힌 기술을 통합해 개발한

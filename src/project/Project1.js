@@ -111,7 +111,7 @@ function Project1() {
             </section>
 
             <section className="project-retro">
-                <h2>문제점과 해결방안</h2>
+                <h2>프로젝트를 진행하면서 생긴 이슈와 해결과정</h2>
 
                 <p>
                     <strong>문제 1 :</strong> 여러 페이지에서 동일한 클래스명을 사용해 CSS가 서로
